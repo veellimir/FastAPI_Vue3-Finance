@@ -7,6 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.12.7"
+fastapi = {extras = ["all"], version = "^0.115.8"}
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.38"}
+python-dotenv = "^1.0.1"
+fastapi-users = "^14.0.1"
+asyncpg = "^0.30.0"
+aiosqlite = "^0.21.0"
+uvicorn = "^0.34.0"
+alembic = "^1.14.1"
 
 
 [build-system]
